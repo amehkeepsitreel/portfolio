@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Selected work across print, digital, crochet, and commissioned traditional media by Amy Reel.">
+  <title>Portfolio | Amy Reel — Art &amp; Design</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="wrap nav">
+      <a href="index.html" class="nav-logo" aria-label="Amy Reel — Home">
+        <img src="images/amy-reel-logo.svg" alt="" width="64" height="34">
+      </a>
+      <div class="nav-end">
+        <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">
+          <span class="nav-toggle-bars" aria-hidden="true"></span>
+          <span class="visually-hidden">Menu</span>
+        </button>
+        <nav aria-label="Primary">
+          <ul class="nav-links" id="primary-nav" data-open="false">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html" aria-current="page">Portfolio</a></li>
+            <li><a href="shop.html">Shop &amp; Commissions</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="wrap page-head">
+      <span class="eyebrow" style="font-size:22px;">a look back</span>
+      <h1 class="section-title display">Portfolio</h1>
+      <p>Selected work across print, digital, crochet, and commissioned traditional media &mdash; filter by medium to browse.</p>
+    </section>
+
+    <section class="wrap">
+      <div class="filters" role="group" aria-label="Filter projects by medium" data-filter-group>
+        <button type="button" class="chip" data-filter="all" aria-pressed="true" style="--accent:var(--ink-dim)">
+          <span class="chip-dot" aria-hidden="true"></span>All
+        </button>
+        <button type="button" class="chip" data-filter="print-digital" aria-pressed="false" style="--accent:var(--mustard)">
+          <span class="chip-dot" aria-hidden="true"></span>Print &amp; Digital
+        </button>
+        <button type="button" class="chip" data-filter="crochet" aria-pressed="false" style="--accent:var(--olive)">
+          <span class="chip-dot" aria-hidden="true"></span>Crochet
+        </button>
+        <button type="button" class="chip" data-filter="commissions" aria-pressed="false" style="--accent:var(--terracotta)">
+          <span class="chip-dot" aria-hidden="true"></span>Commissions
+        </button>
+      </div>
+
+      <p class="filter-status" role="status" data-filter-status></p>
+
+      <div class="grid-work" data-work-grid>
+
+        <a class="work-card" href="project.html" data-category="print-digital" data-match="true">
+          <div class="work-thumb placeholder-block" style="border-top:3px solid var(--mustard)"><span>[Project image]</span></div>
+          <div class="work-meta">
+            <div class="work-tag">Print &amp; Digital</div>
+            <div class="work-title">[Project Title]</div>
+          </div>
+        </a>
+
+        <a class="work-card" href="project.html" data-category="crochet" data-match="true">
+          <div class="work-thumb placeholder-block" style="border-top:3px solid var(--olive)"><span>[Project image]</span></div>
+          <div class="work-meta">
+            <div class="work-tag">Crochet</div>
+            <div class="work-title">[Project Title]</div>
+          </div>
+        </a>
+
+        <a class="work-card" href="project.html" data-category="commissions" data-match="true">
+          <div class="work-thumb placeholder-block" style="border-top:3px solid var(--terracotta)"><span>[Project image]</span></div>
+          <div class="work-meta">
+            <div class="work-tag">Commission &middot; Watercolor</div>
+            <div class="work-title">[Project Title]</div>
+          </div>
+        </a>
+
+        <a class="work-card" href="project.html" data-category="print-digital" data-match="true">
+          <div class="work-thumb placeholder-block" style="border-top:3px solid var(--mustard)"><span>[Project image]</span></div>
+          <div class="work-meta">
+            <div class="work-tag">Print &amp; Digital</div>
+            <div class="work-title">[Project Title]</div>
+          </div>
+        </a>
+
+        <a class="work-card" href="project.html" data-category="crochet" data-match="true">
+          <div class="work-thumb placeholder-block" style="border-top:3px solid var(--olive)"><span>[Project image]</span></div>
+          <div class="work-meta">
+            <div class="work-tag">Crochet</div>
+            <div class="work-title">[Project Title]</div>
+          </div>
+        </a>
+
+        <a class="work-card" href="project.html" data-category="commissions" data-match="true">
+          <div class="work-thumb placeholder-block" style="border-top:3px solid var(--terracotta)"><span>[Project image]</span></div>
+          <div class="work-meta">
+            <div class="work-tag">Commission &middot; Pastel</div>
+            <div class="work-title">[Project Title]</div>
+          </div>
+        </a>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer wrap">
+    <p>Amy Reel &copy; 2022 &ndash; 2026 | All Rights Reserved.</p>
+    <ul class="footer-social">
+      <li><a href="#">Instagram</a></li>
+      <li><a href="https://www.etsy.com/">Etsy</a></li>
+      <li><a href="mailto:your@email.com">Email</a></li>
+    </ul>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
