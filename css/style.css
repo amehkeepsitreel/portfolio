@@ -333,5 +333,5 @@ button:focus-visible,
 
 /* ---- Section rhythm ---- */
 .section { padding: 64px 0; border-top: 1px solid var(--rule); }
-.section-head { margin-bottom: 44px; }
+.section-head { margin-bottom: 44px; margin-top: 24px; }
 .section-title { font-size: 40px; margin: 14px 0 0; }
