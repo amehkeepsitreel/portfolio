@@ -192,7 +192,7 @@
   .steps-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 860px) {
-  .wrap { padding: 0 24px; }
+  .wrap { padding: 0 24px 24px; }
   .hero-split { grid-template-columns: 1fr; }
   .hero-art { margin-top: 8px; }
   .grid-3 { grid-template-columns: 1fr; }
