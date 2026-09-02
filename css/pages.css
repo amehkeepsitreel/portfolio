@@ -147,7 +147,7 @@
 .step h3 { font-size: 17px; color: var(--ink); }
 .step p { font-size: 14px; color: var(--ink-dim); line-height: 1.6; }
 
-.faq { padding: 8px 0 72px; border-top: 1px solid var(--rule); max-width: 720px; }
+.faq { padding: 40px 0 72px; border-top: 1px solid var(--rule); max-width: 720px; }
 .faq-item { border-bottom: 1px solid var(--rule); }
 .faq-item summary {
   padding: 26px 4px;
@@ -188,7 +188,6 @@
 /* ---- Responsive ---- */
 @media (max-width: 900px) {
   .detail-body { grid-template-columns: 1fr; }
-  .thumb-row { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .grid-work { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .steps-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
@@ -199,5 +198,10 @@
   .grid-3 { grid-template-columns: 1fr; }
   .hero-actions { flex-direction: column; align-items: flex-start; }
   .about-body { grid-template-columns: 1fr; }
-  .portrait { max-width: 320px; }
+  .portrait { max-width: 320px; margin: 0 auto; }
+}
+/* Keep the 3 detail-shot thumbnails as a trio down to phone width, then
+   stack — a 2-up layout would leave the third thumbnail stranded alone. */
+@media (max-width: 620px) {
+  .thumb-row { grid-template-columns: 1fr; }
 }
