@@ -170,6 +170,8 @@
 /* ---- About page ---- */
 .about-body { display: grid; grid-template-columns: 380px 1fr; gap: 64px; padding: 56px 0 64px; align-items: start; }
 .portrait { aspect-ratio: 4 / 5; width: 100%; border-top: 3px solid var(--rose); }
+.portrait img { padding-bottom: 20px;}
+.portrait img:last-child { padding-bottom: 0;}
 .about-copy .section-title { font-size: 42px; margin: 14px 0 22px; }
 .about-copy p { color: var(--ink-body); font-size: 16px; line-height: 1.75; max-width: 560px; }
 .about-copy p + p { margin-top: 16px; }
