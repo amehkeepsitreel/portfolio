@@ -329,6 +329,7 @@ button:focus-visible,
   letter-spacing: 0.03em;
   text-align: center;
   padding: 12px;
+  flex-direction: column;
 }
 
 /* ---- Section rhythm ---- */
